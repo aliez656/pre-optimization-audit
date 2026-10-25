@@ -1,5 +1,7 @@
 # pre-optimization-audit
 
+> **Make the AI go deeper, not wider.**
+>
 > A portable **Agent Skill**: before "deeply optimizing" existing content, run four gates of audit first.
 > Not DSH-specific — works anywhere that reads `SKILL.md` (DSH, Claude Code, Cursor, Codex, …).
 

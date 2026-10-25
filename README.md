@@ -1,5 +1,7 @@
 # pre-optimization-audit
 
+> **让 AI 把任务做得更深入，而不是更广。**
+>
 > 一个通用的 **Agent Skill**：当用户要求「深入优化」时，**先做四道前置审计，再动手改**。
 > 不是 DSH 专属——任何支持 `SKILL.md` 约定的 agent 都能用（DSH / Claude Code / Cursor / Codex …）。
 >
