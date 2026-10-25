@@ -2,6 +2,8 @@
 
 > 一个通用的 **Agent Skill**：当用户要求「深入优化」时，**先做四道前置审计，再动手改**。
 > 不是 DSH 专属——任何支持 `SKILL.md` 约定的 agent 都能用（DSH / Claude Code / Cursor / Codex …）。
+>
+> 🌐 **[English](README.en.md)**
 
 ---
 
@@ -35,7 +37,7 @@
 ### 通用位置（推荐，多数 agent 都读）
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/pre-optimization-audit.git \
+git clone https://github.com/aliez656/pre-optimization-audit.git \
   ~/.agents/skills/pre-optimization-audit
 ```
 
@@ -45,7 +47,7 @@ git clone https://github.com/<YOUR_GITHUB_USERNAME>/pre-optimization-audit.git \
 
 ```powershell
 # 用户级（所有工作区可见）
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/pre-optimization-audit.git `
+git clone https://github.com/aliez656/pre-optimization-audit.git `
   "$env:USERPROFILE\.agents\skills\pre-optimization-audit"
 ```
 
@@ -56,7 +58,7 @@ DSH 是**热加载**——放进去即生效，不用重启。
 ### Claude Code
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/pre-optimization-audit.git \
+git clone https://github.com/aliez656/pre-optimization-audit.git \
   ~/.claude/skills/pre-optimization-audit
 ```
 
